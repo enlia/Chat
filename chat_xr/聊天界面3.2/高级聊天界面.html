@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="index.js">
+    </script>
+
+<body>
+
+    <button id="chat-button" >打开聊天界面</button>
+
+    <!-- <script>
+        function open(){
+            const url='https://www.baidu.com/';
+            const windowname='baidu';
+            const windowfeatures='width=600,height=400,top=100,left=100';
+            const myWindow = window.open(url, windowName, windowFeatures);
+            // 如果弹窗不能被命名为 myWindow，则关闭弹窗
+            if (!myWindow || myWindow.name !== 'myWindow') {
+                alert('无法打开 myWindow');
+                myWindow.close();
+            }
+        }
+    </script> -->
+
+    <div class="talk" id='chat-container'>
+    <!-- <div class="talk hidden" id='chat-container'> -->
+
+
+
+        <div class="talk_con" id="talk_con">
+
+            <div class="talk_show" id="words" style="overflow: scroll;">
+                <div class="back"><input type="button" value="退出" id="back"></div>
+                <div class="atalk"><span class="asay" id="talk1" id="asay">12-01 09:53:53 王者说：以后请多关照</span></div>
+                <div class="atalk"><span class="asay" id="talk2" id="asay">12-01 09:35:06 王者说：大家好</span></div>
+                <div class="atalk"><span class="asay" id="talk3" id="asay">12-01 09:53:53 服务器说：欢迎用户来到王者光临王者聊天室</span>
+                </div>
+            </div>
+
+            <div class="talk_input">
+                <input type="text" placeholder="请输入消息..." class="talk_word" id="talkwords">
+                <input type="button" value="发送" class="talk_sub" id="talksub">
+
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</head>
+
+</html>

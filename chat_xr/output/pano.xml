@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node23" appversion="6.1.6" apprev="17950">
+  <panorama hideabout="1" id="node23">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="4" levelbiashidpi="1.000" levelingroll="1" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node23" datetime="2023/4/19 11:06" copyright="" comment="" title="西大门" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="" tilt="12.42" url="" title="35栋" id="Point01" skinid="四十八栋" description="" pan="-336.45"/>
+      <hotspot target="_blank" tilt="13.48" url="" title="28栋" id="Point02" skinid="四十八栋" description="" pan="-45.08"/>
+      <hotspot target="_blank" tilt="11.02" url="" title="27栋" id="Point03" skinid="四十八栋" description="" pan="-67.14"/>
+      <hotspot target="" tilt="9.63" url="" title="25栋" id="Point04" skinid="四十八栋" description="" pan="-24.57"/>
+      <hotspot target="" tilt="7.44" url="" title="教学楼" id="Point05" skinid="四十八栋" description="" pan="-5.12"/>
+      <hotspot target="" tilt="9.82" url="" title="29栋" id="Point06" skinid="四十八栋" description="" pan="-348.39"/>
+      <hotspot target="" tilt="11.17" url="" title="音乐大会堂" id="Point07" skinid="四十八栋" description="" pan="-324.59"/>
+      <hotspot target="-87.2/-6.4/70.0" tilt="-19.5" url="{node22}" title="进入校园" id="Point09" skinid="buttons" description="" pan="-357.45"/>
+      <hotspot target="1.1/-0.9/70.0" tilt="-18.08" url="{node22}" title="菜鸟驿站 前进50米路口向左" id="Point08" skinid="上" description="" pan="-6.42"/>
+      <hotspot target="-89.7/-4.6/70.0" tilt="-17.41" url="{node22}" title="教学楼3栋 向前100米" id="Point10" skinid="上2" description="" pan="-12.46"/>
+      <hotspot target="-88.4/-1.8/70.0" tilt="-27.75" url="{node22}" title="图书馆 前进100米至十字路口" id="Point11" skinid="上3" description="" pan="-2.99"/>
+      <hotspot target="120.7/-1.7/70.0" tilt="-23.14" url="{node22}" title="取外卖地点 前进100米向右后方" id="Point12" skinid="上4" description="" pan="-9.18"/>
+      <hotspot target="26.4/-8.2/70.0" tilt="-18.6" url="{node22}" title="音乐大会堂  前进100米左后方" id="Point13" skinid="上5" description="" pan="-18.33"/>
+      <hotspot target="_blank" tilt="-13.55" url="https://www.kivicube.com/scenes/FhWzyC7Gv2BM8jTKGWWCMxEnbAf8fC8I" title="师大西校门" id="Point14" skinid="师大西校门" description="" pan="-330.65"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node22">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="4" levelbiashidpi="1.000" levelingroll="2" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node22" datetime="2023/4/19 11:03" copyright="" comment="" title="西大门中心" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="27.29" url="" title="35栋" id="Point01" skinid="四十八栋" description="" pan="-33.73"/>
+      <hotspot target="_blank" tilt="23.04" url="" title="36栋" id="Point02" skinid="四十八栋" description="" pan="-15.56"/>
+      <hotspot target="_blank" tilt="18.45" url="" title="37栋" id="Point03" skinid="四十八栋" description="" pan="-10.8"/>
+      <hotspot target="_blank" tilt="13.3" url="" title="29栋" id="Point04" skinid="四十八栋" description="" pan="-69.15"/>
+      <hotspot target="_blank" tilt="15.25" url="" title="28栋" id="Point05" skinid="四十八栋" description="" pan="-201.95"/>
+      <hotspot target="_blank" tilt="11.56" url="" title="27栋" id="Point06" skinid="四十八栋" description="" pan="-192.37"/>
+      <hotspot target="_blank" tilt="9.25" url="" title="26栋" id="Point07" skinid="四十八栋" description="" pan="-186.31"/>
+      <hotspot target="_blank" tilt="15.08" url="" title="25栋" id="Point08" skinid="四十八栋" description="" pan="-144.5"/>
+      <hotspot target="_blank" tilt="11.63" url="" title="24栋" id="Point09" skinid="四十八栋" description="" pan="-163.65"/>
+      <hotspot target="_blank" tilt="9.21" url="" title="23栋" id="Point10" skinid="四十八栋" description="" pan="-169.71"/>
+      <hotspot target="_blank" tilt="7.51" url="" title="教学楼" id="Point11" skinid="四十八栋" description="" pan="-100.94"/>
+      <hotspot target="_blank" tilt="13.87" url="" title="38栋" id="Point12" skinid="四十八栋" description="" pan="-6.81"/>
+      <hotspot target="" tilt="15.6" url="" title="音乐大会堂" id="Point13" skinid="四十八栋" description="" pan="-343.4"/>
+      <hotspot target="100.6/-5.3/70.0" tilt="-21.78" url="{node20}" title="教学楼中心路" id="Point14" skinid="buttons" description="" pan="-84.57"/>
+      <hotspot target="-5.6/-8.5/70.0" tilt="-16.1" url="{node1}" title="大学生活动中心" id="Point15" skinid="buttons" description="" pan="1.18"/>
+      <hotspot target="-175.2/-5.4/70.0" tilt="-17.7" url="{node23}" title="出校门" id="Point16" skinid="buttons" description="" pan="-269.05"/>
+      <hotspot target="-178.8/-0.6/70.0" tilt="-17.13" url="{node11}" title="菜鸟驿站 向前100米至二食堂" id="Point17" skinid="上" description="" pan="-9.05"/>
+      <hotspot target="8.4/-1.6/70.0" tilt="-14.37" url="{node20}" title="教学楼3栋 向前100米右转" id="Point18" skinid="上2" description="" pan="-96.17"/>
+      <hotspot target="147.7/-13.9/70.0" tilt="-16.85" url="{node20}" title="图书馆 继续前进100米" id="Point19" skinid="上3" description="" pan="-97.46"/>
+      <hotspot target="_blank" tilt="-2.45" url="" title="取外卖地方" id="Point20" skinid="目的地4" description="" pan="-238.18"/>
+      <hotspot target="0.1/-5.0/70.0" tilt="-6.59" url="{node23}" title="回到校门" id="Point21" skinid="下4" description="" pan="-225.94"/>
+      <hotspot target="_blank" tilt="0.9" url="" title="音乐大会堂入口" id="Point22" skinid="目的地5" description="" pan="-333.19"/>
+      <hotspot target="1.6/-6.2/70.0" tilt="-8.71" url="{node23}" title="返回校门" id="Point23" skinid="下5" description="" pan="-340.01"/>
+      <hotspot target="_blank" tilt="-5.21" url="https://www.kivicube.com/scenes/6qqVMbEabxCNwAOeFBmDuiGOACDKdcH3" title="导览大图牌" id="Point24" skinid="导览大图牌" description="" pan="-260.68"/>
+      <hotspot target="_blank" tilt="-14.13" url="https://www.kivicube.com/scenes/6qqVMbEabxCNwAOeFBmDuiGOACDKdcH3" title="导览大图牌" id="Point25" skinid="导览大图牌" description="" pan="-164.96"/>
+      <hotspot target="_blank" tilt="-6.98" url="https://www.kivicube.com/scenes/PNWC5qJBGS7cnzqxhfVhPoSORJWdWAWO" title="导览牌" id="Point26" skinid="导览牌" description="" pan="-348.14"/>
+      <hotspot target="_blank" tilt="-6.95" url="https://www.kivicube.com/scenes/PNWC5qJBGS7cnzqxhfVhPoSORJWdWAWO" title="导览牌" id="Point27" skinid="导览牌" description="" pan="-12.78"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node1">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="4" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node1" datetime="2023/4/19 11:11" copyright="" comment="" title="大学生活动中心" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="43" url="" title="38栋" id="Point02" skinid="四十八栋" description="" pan="-50.71"/>
+      <hotspot target="_blank" tilt="43.78" url="" title="37栋" id="Point03" skinid="四十八栋" description="" pan="-134.33"/>
+      <hotspot target="_blank" tilt="27.05" url="" title="36栋" id="Point04" skinid="四十八栋" description="" pan="-162.35"/>
+      <hotspot target="_blank" tilt="25.07" url="" title="大学生活动中心" id="Point05" skinid="四十八栋" description="" pan="-255.52"/>
+      <hotspot target="_blank" tilt="16.37" url="" title="56栋" id="Point06" skinid="四十八栋" description="" pan="-358.28"/>
+      <hotspot target="" tilt="31.46" url="" title="服务中心" id="Point01" skinid="四十八栋" description="" pan="-319.72"/>
+      <hotspot target="_blank" tilt="14.05" url="" title="二食堂" id="Point07" skinid="四十八栋" description="" pan="-349.76"/>
+      <hotspot target="_blank" tilt="14.07" url="" title="音乐大会堂" id="Point08" skinid="四十八栋" description="" pan="-197.52"/>
+      <hotspot target="" tilt="27.34" url="" title="39栋" id="Point09" skinid="四十八栋" description="" pan="-22.93"/>
+      <hotspot target="_blank" tilt="-0.25" url="" title="38栋" id="Point10" skinid="四十八栋" description="" pan="-52.29"/>
+      <hotspot target="_blank" tilt="1.41" url="" title="39栋" id="Point11" skinid="四十八栋" description="" pan="-23.84"/>
+      <hotspot target="_blank" tilt="16.52" url="" title="35栋" id="Point12" skinid="四十八栋" description="" pan="-172.83"/>
+      <hotspot target="86.2/4.4/70.0" tilt="-22.94" url="{node19}" title="中心路" id="Point13" skinid="buttons" description="" pan="-91.72"/>
+      <hotspot target="-177.1/0.4/70.0" tilt="-20.89" url="{node11}" title="二食堂" id="Point14" skinid="buttons" description="" pan="-7.24"/>
+      <hotspot target="-176.9/-4.8/70.0" tilt="-14.87" url="{node22}" title="西门中心路" id="Point15" skinid="buttons" description="" pan="-184.09"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node11">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3" levelbiashidpi="1.000" levelingroll="1" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-0.35" fov="70" projection="4" pan="-176.01"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="31.287014" info="" nodeid="node11" datetime="2023/4/9 15:29" copyright="" comment="" title="二食堂" longitude="118.369306" altitude="0.38" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="23.85" url="" title="56栋" id="Point01" skinid="四十八栋" description="" pan="-168.4"/>
+      <hotspot target="_blank" tilt="38.75" url="" title="39栋" id="Point02" skinid="四十八栋" description="" pan="-325.25"/>
+      <hotspot target="_blank" tilt="36.93" url="" title="40栋" id="Point03" skinid="四十八栋" description="" pan="-217.12"/>
+      <hotspot target="_blank" tilt="35.1" url="" title="41栋" id="Point04" skinid="四十八栋" description="" pan="-208.21"/>
+      <hotspot target="_blank" tilt="21.89" url="" title="42栋" id="Point05" skinid="四十八栋" description="" pan="-190.94"/>
+      <hotspot target="_blank" tilt="17.76" url="" title="53栋" id="Point06" skinid="四十八栋" description="" pan="-183.58"/>
+      <hotspot target="_blank" tilt="-5.24" url="" title="二食堂" id="Point07" skinid="四十八栋" description="" pan="-85.65"/>
+      <hotspot target="" tilt="23.32" url="" title="38栋" id="Point08" skinid="四十八栋" description="" pan="-339.15"/>
+      <hotspot target="" tilt="17.48" url="" title="37栋" id="Point09" skinid="四十八栋" description="" pan="-346.35"/>
+      <hotspot target="" tilt="12.32" url="" title="36栋" id="Point10" skinid="四十八栋" description="" pan="-351.19"/>
+      <hotspot target="" tilt="24.62" url="" title="服务中心" id="Point11" skinid="四十八栋" description="" pan="-11.76"/>
+      <hotspot target="_blank" tilt="4.73" url="" title="40栋" id="Point12" skinid="四十八栋" description="" pan="-224.1"/>
+      <hotspot target="_blank" tilt="0.4" url="" title="41栋" id="Point13" skinid="四十八栋" description="" pan="-204.57"/>
+      <hotspot target="_blank" tilt="41.73" url="" title="二食堂" id="Point14" skinid="四十八栋" description="" pan="-101.46"/>
+      <hotspot target="_blank" tilt="2.76" url="" title="39栋" id="Point15" skinid="四十八栋" description="" pan="-321.14"/>
+      <hotspot target="-3.4/-6.4/70.0" tilt="-15.49" url="{node10}" distance="64.6671" title="二食堂北" id="Point16" skinid="buttons" description="" pan="-178.26"/>
+      <hotspot target="176.5/-2.0/70.0" tilt="-12.9" url="{node1}" title="大学生活动中心" id="Point17" skinid="buttons" description="" pan="-357.91"/>
+      <hotspot target="-9.0/-10.8/70.0" tilt="-15.67" url="{node9}" distance="153.455" title="菜鸟驿站 继续前进100米右拐" id="Point18" skinid="上" description="" pan="-168.67"/>
+      <hotspot target="_blank" tilt="11.74" url="https://www.kivicube.com/scenes/JK9vFYghzrKi8w9R2snMEcc1fepEHu1W" title="二食堂 " id="Point19" skinid="二食堂 " description="" pan="-128.74"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node10">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="2" levelbiashidpi="1.000" levelingroll="1" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="31.287595" info="" nodeid="node10" datetime="2023/4/9 15:32" copyright="" comment="" title="二食堂北" longitude="118.369276" altitude="1.08" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="15.78" url="" title="44栋" id="Point01" skinid="四十八栋" description="" pan="-12.44"/>
+      <hotspot target="_blank" tilt="24.07" url="" title="43栋" id="Point02" skinid="四十八栋" description="" pan="-24.51"/>
+      <hotspot target="_blank" tilt="47.83" url="" title="42栋" id="Point03" skinid="四十八栋" description="" pan="-58.31"/>
+      <hotspot target="_blank" tilt="37.57" url="" title="41栋" id="Point04" skinid="四十八栋" description="" pan="-136.34"/>
+      <hotspot target="_blank" tilt="25.9" url="" title="40栋" id="Point05" skinid="四十八栋" description="" pan="-153.66"/>
+      <hotspot target="_blank" tilt="43.13" url="" title="56栋" id="Point06" skinid="四十八栋" description="" pan="-341.22"/>
+      <hotspot target="_blank" tilt="26.06" url="" title="55栋" id="Point07" skinid="四十八栋" description="" pan="-350.37"/>
+      <hotspot target="_blank" tilt="21.67" url="" title="53栋" id="Point08" skinid="四十八栋" description="" pan="-8.99"/>
+      <hotspot target="" tilt="20.3" url="" title="54栋" id="Point09" skinid="四十八栋" description="" pan="-354.82"/>
+      <hotspot target="_blank" tilt="16.13" url="" title="52栋" id="Point10" skinid="四十八栋" description="" pan="-4.62"/>
+      <hotspot target="_blank" tilt="28.8" url="" title="二食堂" id="Point11" skinid="四十八栋" description="" pan="-243.09"/>
+      <hotspot target="_blank" tilt="2.85" url="" title="42栋" id="Point12" skinid="四十八栋" description="" pan="-58.04"/>
+      <hotspot target="_blank" tilt="3.79" url="" title="41栋" id="Point13" skinid="四十八栋" description="" pan="-137.61"/>
+      <hotspot target="_blank" tilt="0.51" url="" title="二食堂" id="Point14" skinid="四十八栋" description="" pan="-252.05"/>
+      <hotspot target="_blank" tilt="8.71" url="" title="56栋" id="Point15" skinid="四十八栋" description="" pan="-342.44"/>
+      <hotspot target="-2.4/1.6/70.0" tilt="-10.61" url="{node9}" distance="88.8578" title="宿舍北" id="Point16" skinid="buttons" description="" pan="-1.51"/>
+      <hotspot target="0.1/1.9/70.0" tilt="-12.15" url="{node11}" distance="64.6671" title="二食堂" id="Point17" skinid="buttons" description="" pan="-177.13"/>
+      <hotspot target="82.7/-4.3/70.0" tilt="-17.67" url="{node14}" title="圆盘中心" id="Point18" skinid="buttons" description="" pan="-96.12"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node9">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="31.288394" info="" nodeid="node9" datetime="2023/4/9 15:36" copyright="" comment="" title="55栋" longitude="118.369292" altitude="1.55" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="17.7" url="" title="56栋" id="Point01" skinid="四十八栋" description="" pan="-214.67"/>
+      <hotspot target="_blank" tilt="12.41" url="" title="55栋" id="Point02" skinid="四十八栋" description="" pan="-323.3"/>
+      <hotspot target="_blank" tilt="12.72" url="" title="54栋" id="Point03" skinid="四十八栋" description="" pan="-346.83"/>
+      <hotspot target="_blank" tilt="11.29" url="" title="52栋" id="Point04" skinid="四十八栋" description="" pan="-13.51"/>
+      <hotspot target="_blank" tilt="12.51" url="" title="53栋" id="Point05" skinid="四十八栋" description="" pan="-27.57"/>
+      <hotspot target="_blank" tilt="12.52" url="" title="44栋" id="Point06" skinid="四十八栋" description="" pan="-96.84"/>
+      <hotspot target="_blank" tilt="13.56" url="" title="43栋" id="Point07" skinid="四十八栋" description="" pan="-160.42"/>
+      <hotspot target="_blank" tilt="71.11" url="" title="55栋" id="Point08" skinid="四十八栋" description="" pan="-314.6"/>
+      <hotspot target="_blank" tilt="57.57" url="" title="56栋" id="Point09" skinid="四十八栋" description="" pan="-202.26"/>
+      <hotspot target="_blank" tilt="40.01" url="" title="54栋" id="Point10" skinid="四十八栋" description="" pan="-342.72"/>
+      <hotspot target="_blank" tilt="27.82" url="" title="52栋" id="Point11" skinid="四十八栋" description="" pan="-14.41"/>
+      <hotspot target="_blank" tilt="52.32" url="" title="53栋" id="Point12" skinid="四十八栋" description="" pan="-27.57"/>
+      <hotspot target="_blank" tilt="53.01" url="" title="44栋" id="Point13" skinid="四十八栋" description="" pan="-99.46"/>
+      <hotspot target="_blank" tilt="34.39" url="" title="43栋" id="Point14" skinid="四十八栋" description="" pan="-152.74"/>
+      <hotspot target="_blank" tilt="19.21" url="" title="42栋" id="Point15" skinid="四十八栋" description="" pan="-166.31"/>
+      <hotspot target="_blank" tilt="10.89" url="" title="二食堂" id="Point16" skinid="四十八栋" description="" pan="-193.57"/>
+      <hotspot target="_blank" tilt="14.04" url="" title="41栋" id="Point17" skinid="四十八栋" description="" pan="-173.27"/>
+      <hotspot target="-177.2/-6.3/70.0" tilt="-8.47" url="{node15}" title="53栋附近" id="Point18" skinid="buttons" description="" pan="-3.14"/>
+      <hotspot target="0.0/0.0/70.0" tilt="-14.45" url="{node8}" distance="75.3228" title="小时代路" id="Point19" skinid="buttony" description="" pan="-31.95"/>
+      <hotspot target="-178.1/0.0/70.0" tilt="-17.52" url="{node10}" distance="88.8578" title="二食堂北" id="Point20" skinid="buttons" description="" pan="-182.17"/>
+      <hotspot target="-173.7/-18.3/70.0" tilt="-18.32" url="{node7}" distance="229.637" title="菜鸟驿站 右拐至下个路口向左" id="Point21" skinid="右" description="" pan="-19.71"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node5">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3" levelbiashidpi="1.000" levelingroll="-1" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="31.287613" info="" nodeid="node5" datetime="2023/4/9 15:19" copyright="" comment="" title="中心圆盘" longitude="118.370908" altitude="0.62" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="14" url="" title="图书馆" id="Point01" skinid="四十八栋" description="" pan="-195.5"/>
+      <hotspot target="_blank" tilt="22.49" url="" title="45栋" id="Point02" skinid="buttonz" description="" pan="-74.18"/>
+      <hotspot target="_blank" tilt="23.96" url="" title="34栋" id="Point03" skinid="四十八栋" description="" pan="-281.54"/>
+      <hotspot target="_blank" tilt="21.82" url="" title="34栋" id="Point04" skinid="四十八栋" description="" pan="-333.56"/>
+      <hotspot target="_blank" tilt="22.69" url="" title="34栋" id="Point05" skinid="四十八栋" description="" pan="-30.07"/>
+      <hotspot target="-88.8/-5.9/70.0" tilt="-15.83" url="{node12}" distance="58.5078" title="图书馆小道" id="Point06" skinid="buttons" description="" pan="-180.04"/>
+      <hotspot target="-95.6/-4.1/70.0" tilt="-13.84" url="{node14}" title="43栋路" id="Point07" skinid="buttons" description="" pan="-5.57"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node6">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="1" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="31.289189" info="" nodeid="node6" datetime="2023/4/9 15:47" copyright="" comment="" title="菜鸟快递站" longitude="118.371801" altitude="4.81" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="22.54" url="" title="桃李苑" id="Point01" skinid="四十八栋" description="" pan="-116.37"/>
+      <hotspot target="_blank" tilt="53.6" url="" title="48栋" id="Point02" skinid="四十八栋" description="" pan="-33.44"/>
+      <hotspot target="_blank" tilt="25.67" url="" title="49栋" id="Point03" skinid="四十八栋" description="" pan="-63.15"/>
+      <hotspot target="_blank" tilt="6.87" url="" title="菜鸟驿站" id="Point04" skinid="四十八栋" description="" pan="-624.07"/>
+      <hotspot target="_blank" tilt="60.09" url="" title="桃李苑" id="Point05" skinid="四十八栋" description="" pan="-117.14"/>
+      <hotspot target="_blank" tilt="13.33" url="" title="49栋" id="Point06" skinid="四十八栋" description="" pan="-65.04"/>
+      <hotspot target="_blank" tilt="16.44" url="" title="48栋" id="Point07" skinid="四十八栋" description="" pan="-29.73"/>
+      <hotspot target="_blank" tilt="3.37" url="" title="小时代" id="Point08" skinid="四十八栋" description="" pan="-332.71"/>
+      <hotspot target="-176.4/1.9/70.0" tilt="-19.63" url="{node18}" title="北路中心" id="Point09" skinid="buttons" description="" pan="-180.14"/>
+      <hotspot target="-161.8/-2.0/70.0" tilt="-12.97" url="{node17}" title="49栋路口" id="Point10" skinid="buttony" description="" pan="-18.43"/>
+      <hotspot target="179.6/-4.0/70.0" tilt="-14.82" url="{node7}" distance="63.9719" title="小时代" id="Point11" skinid="buttons" description="" pan="-3.76999"/>
+      <hotspot target="_blank" tilt="-25.2" url="" title="菜鸟驿站" id="Point12" skinid="目的地1" description="" pan="-265.79"/>
+      <hotspot target="2.2/-17.2/70.0" tilt="-31.9" url="{node23}" title="回到校园门口" id="Point13" skinid="下" description="" pan="-254.91"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node7">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="4" levelbiashidpi="1.000" levelingroll="1" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="31.288621" info="" nodeid="node7" datetime="2023/4/9 15:44" copyright="" comment="" title="小时代门口" longitude="118.371694" altitude="3.46" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="12.52" url="" title="小时代" id="Point01" skinid="四十八栋" description="" pan="-259.61"/>
+      <hotspot target="_blank" tilt="58.52" url="" title="48栋" id="Point02" skinid="四十八栋" description="" pan="-142.61"/>
+      <hotspot target="_blank" tilt="27.33" url="" title="49栋" id="Point03" skinid="四十八栋" description="" pan="-86.44"/>
+      <hotspot target="_blank" tilt="30.32" url="" title="46栋" id="Point04" skinid="四十八栋" description="" pan="-50.66"/>
+      <hotspot target="_blank" tilt="19.96" url="" title="45栋" id="Point05" skinid="四十八栋" description="" pan="-24.78"/>
+      <hotspot target="_blank" tilt="30.29" url="" title="桃李苑" id="Point06" skinid="四十八栋" description="" pan="-154.75"/>
+      <hotspot target="_blank" tilt="3.47" url="" title="49栋" id="Point07" skinid="四十八栋" description="" pan="-85.89"/>
+      <hotspot target="_blank" tilt="4.98" url="" title="48栋" id="Point08" skinid="四十八栋" description="" pan="-135.64"/>
+      <hotspot target="175.2/2.8/70.0" tilt="-23.54" url="{node12}" distance="120.465" title="图书馆小道" id="Point09" skinid="buttons" description="" pan="-356.88"/>
+      <hotspot target="179.4/0.9/70.0" tilt="-20.26" url="{node8}" distance="155.029" title="48栋路口" id="Point10" skinid="buttons" description="" pan="-81.03"/>
+      <hotspot target="" tilt="-20.08" url="{node6}" distance="63.9719" title="菜鸟驿站" id="Point11" skinid="buttons" description="" pan="-171.08"/>
+      <hotspot target="103.0/-26.5/70.0" tilt="-22.35" url="{node6}" distance="63.9719" title="菜鸟驿站 向前50米右拐" id="Point12" skinid="上" description="" pan="-178.84"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node8">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="4" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="31.288544" info="" nodeid="node8" datetime="2023/4/9 15:39" copyright="" comment="" title="48栋路口" longitude="118.370065" altitude="1.95" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="20.64" url="" title="49栋" id="Point01" skinid="四十八栋" description="" pan="-322.09"/>
+      <hotspot target="_blank" tilt="7.25" url="" title="50栋" id="Point02" skinid="四十八栋" description="" pan="-289.41"/>
+      <hotspot target="_blank" tilt="32.07" url="" title="52栋" id="Point03" skinid="四十八栋" description="" pan="-257.3"/>
+      <hotspot target="_blank" tilt="7.39" url="" title="53栋" id="Point04" skinid="四十八栋" description="" pan="-232.51"/>
+      <hotspot target="_blank" tilt="5.98" url="" title="55栋" id="Point05" skinid="四十八栋" description="" pan="-181.33"/>
+      <hotspot target="_blank" tilt="3.26" url="" title="44栋" id="Point06" skinid="四十八栋" description="" pan="-137.66"/>
+      <hotspot target="_blank" tilt="5.59" url="" title="47栋" id="Point07" skinid="四十八栋" description="" pan="-55.38"/>
+      <hotspot target="_blank" tilt="23.15" url="" title="43栋" id="Point08" skinid="四十八栋" description="" pan="-104.21"/>
+      <hotspot target="_blank" tilt="19.58" url="" title="48栋" id="Point09" skinid="四十八栋" description="" pan="-355.28"/>
+      <hotspot target="_blank" tilt="59.3" url="" title="49栋" id="Point10" skinid="四十八栋" description="" pan="-321.3"/>
+      <hotspot target="_blank" tilt="48.3" url="" title="47栋" id="Point11" skinid="四十八栋" description="" pan="-53.6"/>
+      <hotspot target="_blank" tilt="39.68" url="" title="44栋" id="Point12" skinid="四十八栋" description="" pan="-136.39"/>
+      <hotspot target="_blank" tilt="0.55" url="" title="43栋" id="Point13" skinid="四十八栋" description="" pan="-102.48"/>
+      <hotspot target="_blank" tilt="29.37" url="" title="55栋" id="Point14" skinid="四十八栋" description="" pan="-179.1"/>
+      <hotspot target="_blank" tilt="32.87" url="" title="50栋" id="Point15" skinid="四十八栋" description="" pan="-288.73"/>
+      <hotspot target="_blank" tilt="5.21" url="" title="52栋" id="Point16" skinid="四十八栋" description="" pan="-257.27"/>
+      <hotspot target="_blank" tilt="66.69" url="" title="53栋" id="Point17" skinid="四十八栋" description="" pan="-228.26"/>
+      <hotspot target="178.2/0.4/70.0" tilt="-17.02" url="{node9}" distance="75.3228" title="55栋" id="Point18" skinid="buttons" description="" pan="-180.68"/>
+      <hotspot target="-5.4/-2.8/70.0" tilt="-18.99" url="{node14}" title="圆盘路" id="Point19" skinid="buttons" description="" pan="-96.51"/>
+      <hotspot target="-90.7/-7.3/70.0" tilt="-13.47" url="{node7}" distance="155.029" title="小时代" id="Point20" skinid="buttons" description="" pan="-3.2"/>
+      <hotspot target="102.1/2.5/70.0" tilt="-17.07" url="{node17}" title="49栋路口" id="Point21" skinid="buttonz" description="" pan="-342.01"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node12">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="1" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="31.287548" info="" nodeid="node12" datetime="2023/4/9 15:22" copyright="" comment="" title="图书馆小道" longitude="118.371519" altitude="0.92" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="18.87" url="" title="图书馆" id="Point01" skinid="四十八栋" description="" pan="-94.81"/>
+      <hotspot target="_blank" tilt="18.3" url="" title="48栋" id="Point02" skinid="四十八栋" description="" pan="-351.62"/>
+      <hotspot target="_blank" tilt="12.59" url="" title="46栋" id="Point03" skinid="四十八栋" description="" pan="-340.07"/>
+      <hotspot target="_blank" tilt="16.3" url="" title="45栋" id="Point04" skinid="四十八栋" description="" pan="-322.44"/>
+      <hotspot target="_blank" tilt="22.53" url="" title="34栋" id="Point05" skinid="四十八栋" description="" pan="-221.37"/>
+      <hotspot target="_blank" tilt="16.02" url="" title="33栋" id="Point06" skinid="四十八栋" description="" pan="-205.86"/>
+      <hotspot target="_blank" tilt="13.04" url="" title="32栋" id="Point07" skinid="四十八栋" description="" pan="-200.14"/>
+      <hotspot target="_blank" tilt="11.56" url="" title="32栋" id="Point08" skinid="四十八栋" description="" pan="-194.62"/>
+      <hotspot target="_blank" tilt="10" url="" title="31栋" id="Point09" skinid="四十八栋" description="" pan="-190.08"/>
+      <hotspot target="_blank" tilt="9.74" url="" title="教学楼" id="Point10" skinid="四十八栋" description="" pan="-160.19"/>
+      <hotspot target="_blank" tilt="5.89" url="" title="小时代" id="Point11" skinid="四十八栋" description="" pan="-9.34"/>
+      <hotspot target="5.4/-1.9/70.0" tilt="-22.34" url="{node2}" title="图书馆" id="Point12" skinid="buttons" description="" pan="-96.62"/>
+      <hotspot target="-5.9/-1.0/70.0" tilt="-27.42" url="{node7}" distance="120.465" title="小时代路" id="Point13" skinid="buttons" description="" pan="0.1"/>
+      <hotspot target="-3.9/-2.7/70.0" tilt="-31.1" url="{node5}" distance="58.5078" title="中心圆盘" id="Point14" skinid="buttons" description="" pan="-271.94"/>
+      <hotspot target="-179.8/-6.1/70.0" tilt="-20.38" url="{node19}" title="活动中心路" id="Point15" skinid="buttons" description="" pan="-184.64"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node2">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="2" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node2" datetime="2023/4/19 11:20" copyright="" comment="" title="图书馆" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="13.56" url="" title="49栋" id="Point01" skinid="四十八栋" description="" pan="-214.97"/>
+      <hotspot target="_blank" tilt="15.03" url="" title="48栋" id="Point02" skinid="四十八栋" description="" pan="-230.88"/>
+      <hotspot target="_blank" tilt="11.14" url="" title="34栋" id="Point03" skinid="四十八栋" description="" pan="-164.11"/>
+      <hotspot target="_blank" tilt="10.09" url="" title="45栋" id="Point04" skinid="四十八栋" description="" pan="-205.39"/>
+      <hotspot target="_blank" tilt="9.98" url="" title="33栋" id="Point05" skinid="四十八栋" description="" pan="-150.88"/>
+      <hotspot target="_blank" tilt="9.35" url="" title="32栋" id="Point06" skinid="四十八栋" description="" pan="-139.61"/>
+      <hotspot target="_blank" tilt="8.91" url="" title="31栋" id="Point07" skinid="四十八栋" description="" pan="-131.33"/>
+      <hotspot target="_blank" tilt="7.99" url="" title="30栋" id="Point08" skinid="四十八栋" description="" pan="-125.04"/>
+      <hotspot target="_blank" tilt="7.91" url="" title="29栋" id="Point09" skinid="四十八栋" description="" pan="-117.98"/>
+      <hotspot target="_blank" tilt="6.99" url="" title="行知教学楼" id="Point10" skinid="四十八栋" description="" pan="-73.67"/>
+      <hotspot target="_blank" tilt="29.87" url="" title="图书馆" id="Point11" skinid="图书馆" description="" pan="-356.57"/>
+      <hotspot target="_blank" tilt="6.4" url="" title="外国语学院" id="Point12" skinid="四十八栋" description="" pan="-295.8"/>
+      <hotspot target="_blank" tilt="-37.17" url="" title="花津湖（黑天鹅出没）" id="Point13" skinid="四十八栋" description="" pan="-139.98"/>
+      <hotspot target="_blank" tilt="13.29" url="" title="桃李苑" id="Point14" skinid="四十八栋" description="" pan="-238.73"/>
+      <hotspot target="_blank" tilt="8.96" url="" title="47栋" id="Point15" skinid="四十八栋" description="" pan="-219.87"/>
+      <hotspot target="" tilt="8.7" url="" title="文科大楼" id="Point16" skinid="四十八栋" description="" pan="-275.86"/>
+      <hotspot target="52.5/-0.3/70.0" tilt="-25.64" url="{node3}" title="湖中亭" id="Point17" skinid="buttons" description="" pan="-82.11"/>
+      <hotspot target="-1.6/-5.8/70.0" tilt="-22.4" url="{node12}" title="图书小道" id="Point18" skinid="buttons" description="" pan="-213"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node3">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="2" levelbiashidpi="1.000" levelingroll="1" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node3" datetime="2023/4/19 11:25" copyright="" comment="" title="图书馆大桥" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="13.61" url="" title="教学楼7号楼" id="Point01" skinid="四十八栋" description="" pan="-287.56"/>
+      <hotspot target="_blank" tilt="21.58" url="" title="图书馆" id="Point02" skinid="四十八栋" description="" pan="-130.34"/>
+      <hotspot target="_blank" tilt="8.51" url="" title="美术学院" id="Point03" skinid="四十八栋" description="" pan="-238.54"/>
+      <hotspot target="_blank" tilt="9.34" url="" title="文学院" id="Point04" skinid="四十八栋" description="" pan="-202.58"/>
+      <hotspot target="_blank" tilt="11.25" url="" title="教学楼5号楼" id="Point05" skinid="四十八栋" description="" pan="-346.92"/>
+      <hotspot target="_blank" tilt="9.99" url="" title="教学楼4号楼" id="Point06" skinid="四十八栋" description="" pan="-318.38"/>
+      <hotspot target="_blank" tilt="0.45" url="" title="音韵留芳" id="Point07" skinid="四十八栋" description="" pan="-36.26"/>
+      <hotspot target="_blank" tilt="15.75" url="" title="秋实园宿舍楼" id="Point08" skinid="四十八栋" description="" pan="-62.03"/>
+      <hotspot target="_blank" tilt="6.59" url="" title="地旅学院" id="Point10" skinid="四十八栋" description="" pan="-157.29"/>
+      <hotspot target="_blank" tilt="7.94" url="" title="29栋" id="Point11" skinid="四十八栋" description="" pan="-23.04"/>
+      <hotspot target="_blank" tilt="8.35" url="" title="30栋" id="Point12" skinid="四十八栋" description="" pan="-33.28"/>
+      <hotspot target="_blank" tilt="7.76" url="" title="31栋" id="Point13" skinid="四十八栋" description="" pan="-43.31"/>
+      <hotspot target="_blank" tilt="7.5" url="" title="32栋" id="Point14" skinid="四十八栋" description="" pan="-51.93"/>
+      <hotspot target="_blank" tilt="7.28" url="" title="33栋" id="Point15" skinid="四十八栋" description="" pan="-60.21"/>
+      <hotspot target="_blank" tilt="6.93" url="" title="34栋" id="Point16" skinid="四十八栋" description="" pan="-68"/>
+      <hotspot target="_blank" tilt="5.95" url="" title="45栋" id="Point17" skinid="四十八栋" description="" pan="-82.5"/>
+      <hotspot target="_blank" tilt="6.39" url="" title="47栋" id="Point09" skinid="四十八栋" description="" pan="-89.82"/>
+      <hotspot target="_blank" tilt="8.92" url="" title="48栋" id="Point18" skinid="四十八栋" description="" pan="-95.28"/>
+      <hotspot target="_blank" tilt="8.43" url="" title="桃李苑" id="Point19" skinid="四十八栋" description="" pan="-101.05"/>
+      <hotspot target="60.4/2.9/70.0" tilt="-17.5" url="{node2}" title="图书馆" id="Point20" skinid="buttons" description="" pan="-115.67"/>
+      <hotspot target="61.7/-0.7/70.0" tilt="-13.15" url="{node4}" title="教学楼路" id="Point21" skinid="buttons" description="" pan="-318.59"/>
+      <hotspot target="-27.5/-1.4/70.0" tilt="-12.3" url="{node20}" title="大路中心" id="Point22" skinid="buttons" description="" pan="-28.93"/>
+      <hotspot target="39.8/-4.1/70.0" tilt="-10.52" url="{node7}" title="小时代" id="Point23" skinid="buttons" description="" pan="-87.01"/>
+      <hotspot target="0.0/0.0/70.0" tilt="-17.18" url="{node23}" title="返回校门" id="Point24" skinid="下3" description="" pan="-164.8"/>
+      <hotspot target="_blank" tilt="0.25" url="" title="图书馆" id="Point25" skinid="目的地3" description="" pan="-133.94"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node4">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="2" levelbiashidpi="1.000" levelingroll="-1" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node4" datetime="2023/4/19 11:28" copyright="" comment="" title="教学楼6栋" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="18.1" url="" title="教学楼7号楼" id="Point01" skinid="四十八栋" description="" pan="-233.89"/>
+      <hotspot target="_blank" tilt="23" url="" title="教学楼5号楼" id="Point02" skinid="四十八栋" description="" pan="-325.78"/>
+      <hotspot target="_blank" tilt="14.73" url="" title="图书馆" id="Point03" skinid="四十八栋" description="" pan="-117.83"/>
+      <hotspot target="_blank" tilt="-3.92" url="" title="环湖小路" id="Point04" skinid="四十八栋" description="" pan="-179.82"/>
+      <hotspot target="_blank" tilt="-1.43" url="" title="环湖小路" id="Point05" skinid="四十八栋" description="" pan="-97.34"/>
+      <hotspot target="_blank" tilt="6.42" url="" title="湖中亭" id="Point06" skinid="四十八栋" description="" pan="-133.52"/>
+      <hotspot target="-142.6/-4.0/70.0" tilt="-16.4" url="{node3}" title="湖中亭" id="Point07" skinid="buttons" description="" pan="-129.38"/>
+      <hotspot target="-84.8/-3.6/70.0" tilt="-16.81" url="{node20}" title="教学路中心" id="Point08" skinid="buttons" description="" pan="-357.93"/>
+      <hotspot target="-142.6/-5.6/70.0" tilt="-9.82" url="{node3}" title="图书馆 上桥向前30米" id="Point09" skinid="左3" description="" pan="-139.19"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node14">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="4" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node14" datetime="2023/4/19 10:15" copyright="" comment="" title="43栋" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="9.98" url="" title="45栋" id="Point01" skinid="四十八栋" description="" pan="-230.09"/>
+      <hotspot target="_blank" tilt="6.68" url="" title="34栋" id="Point02" skinid="四十八栋" description="" pan="-320.45"/>
+      <hotspot target="_blank" tilt="4.92" url="" title="40栋" id="Point03" skinid="四十八栋" description="" pan="-35.45"/>
+      <hotspot target="_blank" tilt="24.47" url="" title="39栋" id="Point04" skinid="四十八栋" description="" pan="-21.37"/>
+      <hotspot target="_blank" tilt="17.18" url="" title="38栋" id="Point05" skinid="四十八栋" description="" pan="-16.54"/>
+      <hotspot target="_blank" tilt="53.79" url="" title="41栋" id="Point06" skinid="四十八栋" description="" pan="-141.28"/>
+      <hotspot target="_blank" tilt="23.66" url="" title="42栋" id="Point07" skinid="四十八栋" description="" pan="-173.51"/>
+      <hotspot target="_blank" tilt="11.96" url="" title="37栋" id="Point08" skinid="四十八栋" description="" pan="-11.76"/>
+      <hotspot target="_blank" tilt="48.77" url="" title="40栋" id="Point09" skinid="四十八栋" description="" pan="-35.03"/>
+      <hotspot target="_blank" tilt="45" url="" title="34栋" id="Point10" skinid="四十八栋" description="" pan="-319.58"/>
+      <hotspot target="_blank" tilt="45.68" url="" title="45栋" id="Point11" skinid="四十八栋" description="" pan="-227.92"/>
+      <hotspot target="_blank" tilt="9.89" url="" title="41栋" id="Point12" skinid="四十八栋" description="" pan="-143.76"/>
+      <hotspot target="86.0/1.2/70.0" tilt="-24.68" url="{node8}" title="48栋路口" id="Point13" skinid="buttons" description="" pan="-195.14"/>
+      <hotspot target="175.9/3.2/70.0" tilt="-19.66" url="{node5}" title="中心圆盘" id="Point14" skinid="buttons" description="" pan="-281.42"/>
+      <hotspot target="" tilt="-22.3" url="{node10}" title="食堂北路" id="Point16" skinid="buttons" description="" pan="-93.97"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node15">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3" levelbiashidpi="1.000" levelingroll="1" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node15" datetime="2023/4/19 10:25" copyright="" comment="" title="53栋" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="30.5" url="" title="56栋" id="Point01" skinid="四十八栋" description="" pan="-14.95"/>
+      <hotspot target="_blank" tilt="7.28" url="" title="55栋" id="Point02" skinid="四十八栋" description="" pan="-25.2"/>
+      <hotspot target="_blank" tilt="10.17" url="" title="54栋" id="Point03" skinid="四十八栋" description="" pan="-108.91"/>
+      <hotspot target="_blank" tilt="13.95" url="" title="52栋" id="Point04" skinid="四十八栋" description="" pan="-205.53"/>
+      <hotspot target="_blank" tilt="13.4" url="" title="53栋" id="Point05" skinid="四十八栋" description="" pan="-324.54"/>
+      <hotspot target="_blank" tilt="24.31" url="" title="50栋" id="Point06" skinid="四十八栋" description="" pan="-255.45"/>
+      <hotspot target="_blank" tilt="21.89" url="" title="49栋" id="Point07" skinid="四十八栋" description="" pan="-277.98"/>
+      <hotspot target="_blank" tilt="15.39" url="" title="桃李苑" id="Point08" skinid="四十八栋" description="" pan="-263.69"/>
+      <hotspot target="_blank" tilt="15.92" url="" title="48栋" id="Point09" skinid="四十八栋" description="" pan="-274.62"/>
+      <hotspot target="_blank" tilt="20.5" url="" title="44栋" id="Point10" skinid="四十八栋" description="" pan="-344.28"/>
+      <hotspot target="_blank" tilt="6.5" url="" title="二食堂" id="Point11" skinid="四十八栋" description="" pan="-8.12"/>
+      <hotspot target="_blank" tilt="6.19" url="" title="56栋" id="Point12" skinid="四十八栋" description="" pan="-14.34"/>
+      <hotspot target="_blank" tilt="52.06" url="" title="55栋" id="Point13" skinid="四十八栋" description="" pan="-25.11"/>
+      <hotspot target="_blank" tilt="68.07" url="" title="53栋" id="Point14" skinid="四十八栋" description="" pan="-315.85"/>
+      <hotspot target="_blank" tilt="48.56" url="" title="52栋" id="Point15" skinid="四十八栋" description="" pan="-206.06"/>
+      <hotspot target="_blank" tilt="75.29" url="" title="53栋" id="Point16" skinid="四十八栋" description="" pan="-88.39"/>
+      <hotspot target="2.4/-13.3/70.0" tilt="-19.32" url="{node17}" title="49栋路" id="Point17" skinid="buttons" description="" pan="-266.66"/>
+      <hotspot target="0.0/0.0/70.0" tilt="-11.24" url="{node16}" title="宿舍北路" id="Point18" skinid="buttons" description="" pan="-182.46"/>
+      <hotspot target="179.8/-4.7/70.0" tilt="-18.02" url="{node9}" title="55栋路口" id="Point19" skinid="buttons" description="" pan="-364.75"/>
+      <hotspot target="_blank" tilt="-8.04" url="" title="" id="Point20" skinid="ht_url" description="" pan="-9.09"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node16">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="1" levelbiashidpi="1.000" levelingroll="-1" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node16" datetime="2023/4/19 10:29" copyright="" comment="" title="51栋" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="3.2" url="" title="52栋" id="Point01" skinid="四十八栋" description="" pan="-58.75"/>
+      <hotspot target="_blank" tilt="31.26" url="" title="54栋" id="Point02" skinid="四十八栋" description="" pan="-136.23"/>
+      <hotspot target="_blank" tilt="28.85" url="" title="50栋" id="Point03" skinid="四十八栋" description="" pan="-17.28"/>
+      <hotspot target="_blank" tilt="15.36" url="" title="桃李苑" id="Point04" skinid="四十八栋" description="" pan="-8.32"/>
+      <hotspot target="_blank" tilt="50.37" url="" title="53栋" id="Point05" skinid="四十八栋" description="" pan="-41.85"/>
+      <hotspot target="10.8/-6.7/70.0" tilt="-10.65" url="{node18}" title="中心北路" id="Point06" skinid="buttons" description="" pan="-4.35"/>
+      <hotspot target="0.0/0.0/70.0" tilt="-19.2" url="{node15}" title="53栋路口" id="Point07" skinid="buttons" description="" pan="-152.08"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node17">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node17" datetime="2023/4/19 10:33" copyright="" comment="" title="49栋" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="41" url="" title="49栋" id="Point01" skinid="四十八栋" description="" pan="-6.55"/>
+      <hotspot target="_blank" tilt="17.51" url="" title="48栋" id="Point02" skinid="四十八栋" description="" pan="-348.35"/>
+      <hotspot target="_blank" tilt="39.71" url="" title="50栋" id="Point03" skinid="四十八栋" description="" pan="-315.17"/>
+      <hotspot target="_blank" tilt="21.91" url="" title="桃李苑" id="Point04" skinid="四十八栋" description="" pan="-328.2"/>
+      <hotspot target="_blank" tilt="3.15" url="" title="53栋" id="Point05" skinid="四十八栋" description="" pan="-136.1"/>
+      <hotspot target="_blank" tilt="19.96" url="" title="44栋" id="Point06" skinid="四十八栋" description="" pan="-87.68"/>
+      <hotspot target="_blank" tilt="14.46" url="" title="43栋" id="Point07" skinid="四十八栋" description="" pan="-76.67"/>
+      <hotspot target="_blank" tilt="19.5" url="" title="47栋" id="Point08" skinid="四十八栋" description="" pan="-58.89"/>
+      <hotspot target="_blank" tilt="29.47" url="" title="54栋" id="Point09" skinid="四十八栋" description="" pan="-160.13"/>
+      <hotspot target="_blank" tilt="53.62" url="" title="52栋" id="Point10" skinid="四十八栋" description="" pan="-206.15"/>
+      <hotspot target="_blank" tilt="66.65" url="" title="53栋" id="Point11" skinid="四十八栋" description="" pan="-123.57"/>
+      <hotspot target="_blank" tilt="4.59" url="" title="49栋" id="Point12" skinid="四十八栋" description="" pan="-20.24"/>
+      <hotspot target="_blank" tilt="5.3" url="" title="50栋" id="Point13" skinid="四十八栋" description="" pan="-290.46"/>
+      <hotspot target="_blank" tilt="6.4" url="" title="52栋" id="Point14" skinid="四十八栋" description="" pan="-226.06"/>
+      <hotspot target="-74.5/-5.6/70.0" tilt="-12.11" url="{node15}" title="53栋路" id="Point15" skinid="buttons" description="" pan="-150.71"/>
+      <hotspot target="-1.6/-1.4/70.0" tilt="-19.24" url="{node8}" title="48栋路口" id="Point16" skinid="buttony" description="" pan="-24.62"/>
+      <hotspot target="-88.6/-3.3/70.0" tilt="-16.93" url="{node6}" title="菜鸟驿站路口" id="Point17" skinid="buttons" description="" pan="-0.12"/>
+      <hotspot target="-78.2/1.5/70.0" tilt="-25.36" url="{node18}" title="北路中心" id="Point18" skinid="buttonz" description="" pan="-333.37"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node18">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node18" datetime="2023/4/19 10:39" copyright="" comment="" title="北十字路口" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="58.66" url="" title="桃李苑" id="Point01" skinid="四十八栋" description="" pan="-40.88"/>
+      <hotspot target="_blank" tilt="31.84" url="" title="48栋" id="Point02" skinid="四十八栋" description="" pan="-6.73"/>
+      <hotspot target="_blank" tilt="4.73" url="" title="菜鸟驿站" id="Point03" skinid="四十八栋" description="" pan="-335.81"/>
+      <hotspot target="_blank" tilt="12.5" url="" title="文科大楼" id="Point04" skinid="四十八栋" description="" pan="-209.54"/>
+      <hotspot target="_blank" tilt="7.24" url="" title="外国语学院" id="Point05" skinid="四十八栋" description="" pan="-255.06"/>
+      <hotspot target="_blank" tilt="11.79" url="" title="桃李苑" id="Point06" skinid="四十八栋" description="" pan="-46.55"/>
+      <hotspot target="_blank" tilt="13.17" url="" title="48栋" id="Point07" skinid="四十八栋" description="" pan="-3.55"/>
+      <hotspot target="" tilt="-13.98" url="{node16}" title="北路路口" id="Point08" skinid="buttons" description="" pan="-88.88"/>
+      <hotspot target="" tilt="-18.6" url="{node6}" title="菜鸟驿站" id="Point09" skinid="buttons" description="" pan="-344.76"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node19">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="2" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node19" datetime="2023/4/19 10:48" copyright="" comment="" title="大路北" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="15.31" url="" title="图书馆" id="Point01" skinid="四十八栋" description="" pan="-57.58"/>
+      <hotspot target="_blank" tilt="31.14" url="" title="32栋" id="Point02" skinid="四十八栋" description="" pan="-286.92"/>
+      <hotspot target="_blank" tilt="29.79" url="" title="31栋" id="Point03" skinid="四十八栋" description="" pan="-231.51"/>
+      <hotspot target="_blank" tilt="16.26" url="" title="30栋" id="Point04" skinid="四十八栋" description="" pan="-211.16"/>
+      <hotspot target="_blank" tilt="15.2" url="" title="29栋" id="Point05" skinid="四十八栋" description="" pan="-197.46"/>
+      <hotspot target="_blank" tilt="21.84" url="" title="33栋" id="Point06" skinid="四十八栋" description="" pan="-320.07"/>
+      <hotspot target="_blank" tilt="16.18" url="" title="34栋" id="Point07" skinid="四十八栋" description="" pan="-334.1"/>
+      <hotspot target="_blank" tilt="12.61" url="" title="48栋" id="Point08" skinid="四十八栋" description="" pan="-354.02"/>
+      <hotspot target="_blank" tilt="6.63" url="" title="小时代" id="Point09" skinid="四十八栋" description="" pan="-9.57"/>
+      <hotspot target="86.8/6.9/70.0" tilt="-20.05" url="{node1}" title="大学生活动中心" id="Point10" skinid="buttons" description="" pan="-257.5"/>
+      <hotspot target="6.3/-3.6/70.0" tilt="-18.52" url="{node20}" title="教学楼中心路" id="Point11" skinid="buttons" description="" pan="-179.02"/>
+      <hotspot target="32.3/-0.0/70.0" tilt="-19.07" url="{node2}" title="图书馆" id="Point12" skinid="buttons" description="" pan="-70.88"/>
+      <hotspot target="0.0/0.0/70.0" tilt="-20.93" url="{node12}" title="图书馆小路" id="Point13" skinid="buttons" description="" pan="-0.660002"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node20">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node20" datetime="2023/4/19 10:52" copyright="" comment="" title="大路中" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="17.53" url="" title="教学楼5号楼" id="Point01" skinid="四十八栋" description="" pan="-298.27"/>
+      <hotspot target="_blank" tilt="13.59" url="" title="教学楼4号楼" id="Point02" skinid="四十八栋" description="" pan="-310.45"/>
+      <hotspot target="_blank" tilt="10.66" url="" title="教学楼3号楼" id="Point03" skinid="四十八栋" description="" pan="-318.43"/>
+      <hotspot target="_blank" tilt="8.85" url="" title="教学楼2号楼" id="Point04" skinid="四十八栋" description="" pan="-327.09"/>
+      <hotspot target="_blank" tilt="12.38" url="" title="22栋" id="Point05" skinid="四十八栋" description="" pan="-29.06"/>
+      <hotspot target="_blank" tilt="7.62" url="" title="25栋" id="Point06" skinid="四十八栋" description="" pan="-54.02"/>
+      <hotspot target="_blank" tilt="21.04" url="" title="29栋" id="Point07" skinid="四十八栋" description="" pan="-124.28"/>
+      <hotspot target="_blank" tilt="10.35" url="" title="35栋" id="Point08" skinid="四十八栋" description="" pan="-98.56"/>
+      <hotspot target="_blank" tilt="17.16" url="" title="30栋" id="Point09" skinid="四十八栋" description="" pan="-147.74"/>
+      <hotspot target="_blank" tilt="12.58" url="" title="31栋" id="Point10" skinid="四十八栋" description="" pan="-159"/>
+      <hotspot target="_blank" tilt="9.25" url="" title="48栋" id="Point11" skinid="四十八栋" description="" pan="-179.43"/>
+      <hotspot target="_blank" tilt="10.28" url="" title="32栋" id="Point12" skinid="四十八栋" description="" pan="-165.81"/>
+      <hotspot target="_blank" tilt="8.13" url="" title="33栋" id="Point13" skinid="四十八栋" description="" pan="-170.89"/>
+      <hotspot target="_blank" tilt="5.04" url="" title="34栋" id="Point14" skinid="四十八栋" description="" pan="-175.5"/>
+      <hotspot target="178.1/1.2/70.0" tilt="-14.09" url="{node19}" title="活动中心路" id="Point15" skinid="buttons" description="" pan="-177.04"/>
+      <hotspot target="91.2/2.7/70.0" tilt="-25.64" url="{node22}" title="西门中心路" id="Point16" skinid="buttons" description="" pan="-88.36"/>
+      <hotspot target="0.5/1.5/70.0" tilt="-16.49" url="{node21}" title="教学楼路" id="Point17" skinid="buttons" description="" pan="-354.91"/>
+      <hotspot target="-148.3/1.5/70.0" tilt="-33.45" url="{node4}" title="图书馆路" id="Point18" skinid="buttons" description="" pan="-252.57"/>
+      <hotspot target="88.6/-13.7/70.0" tilt="-22.77" url="{node21}" title="教学楼3栋  向前50米左转" id="Point19" skinid="上2" description="" pan="-354.83"/>
+      <hotspot target="-126.3/-12.4/70.0" tilt="-16.43" url="{node4}" title="图书馆 前进100米至阶梯处" id="Point20" skinid="右3" description="" pan="-201.49"/>
+      <hotspot target="_blank" tilt="-12.01" url="https://www.kivicube.com/scenes/6qqVMbEabxCNwAOeFBmDuiGOACDKdcH3" title="导览大图牌" id="Point21" skinid="导览大图牌" description="" pan="-337.64"/>
+      <hotspot target="_blank" tilt="-12.32" url="https://www.kivicube.com/scenes/6qqVMbEabxCNwAOeFBmDuiGOACDKdcH3" title="导览大图牌" id="Point22" skinid="导览大图牌" description="" pan="-152.24"/>
+      <hotspot target="_blank" tilt="-19.29" url="https://www.kivicube.com/scenes/HNYvJcDrhPMKdBqzLJaeMz5kfqAmzf5N" title="厚德载物" id="Point23" skinid="厚德载物" description="" pan="-207.21"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node21">
+    <input height="2048" levelbias="0.400" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="4" levelbiashidpi="1.000" levelingroll="2" leveltilesize="510" overlap="1" width="2048">
+      <level height="2048" preload="0" predecode="0" width="2048"/>
+      <level height="1024" preload="0" predecode="0" width="1024"/>
+      <level height="512" preload="0" predecode="0" width="512"/>
+      <level height="256" preload="1" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="" info="" nodeid="node21" datetime="2023/4/19 10:57" copyright="" comment="" title="大路南" longitude="" tags="全景图片" description="" author="" source="" heading="0"/>
+    <hotspots height="20" wordwrap="0" width="180">
+      <label height="20" border="1" textcolor="0x000000" background="1" enabled="0" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" wordwrap="0" bordercolor="0x000000" borderalpha="1" borderradius="1" width="180"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot target="_blank" tilt="18.75" url="" title="教学楼5号楼" id="Point01" skinid="四十八栋" description="" pan="-231.09"/>
+      <hotspot target="_blank" tilt="21.07" url="" title="教学楼4号楼" id="Point02" skinid="四十八栋" description="" pan="-249.53"/>
+      <hotspot target="_blank" tilt="21.29" url="" title="教学楼3号楼" id="Point03" skinid="四十八栋" description="" pan="-292.14"/>
+      <hotspot target="_blank" tilt="18.23" url="" title="教学楼2号楼" id="Point04" skinid="四十八栋" description="" pan="-308.94"/>
+      <hotspot target="_blank" tilt="27.32" url="" title="21栋" id="Point05" skinid="四十八栋" description="" pan="-92.38"/>
+      <hotspot target="_blank" tilt="17.18" url="" title="20栋" id="Point06" skinid="四十八栋" description="" pan="-48.34"/>
+      <hotspot target="_blank" tilt="13" url="" title="16栋" id="Point07" skinid="四十八栋" description="" pan="-21.69"/>
+      <hotspot target="_blank" tilt="15.26" url="" title="22栋" id="Point08" skinid="四十八栋" description="" pan="-123.68"/>
+      <hotspot target="_blank" tilt="8.33" url="" title="门禁服务中心" id="Point09" skinid="四十八栋" description="" pan="-77.22"/>
+      <hotspot target="-179.3/-4.2/70.0" tilt="-21.27" url="{node20}" title="教学路中心" id="Point10" skinid="buttons" description="" pan="-187.23"/>
+      <hotspot target="_blank" tilt="-5.25" url="" title="教学楼3栋" id="Point11" skinid="目的地2" description="" pan="-270.46"/>
+      <hotspot target="0.0/0.0/70.0" tilt="-23.03" url="{node23}" title="返回校门" id="Point12" skinid="下2" description="" pan="-269.52"/>
+      <hotspot target="_blank" tilt="-12.97" url="https://www.kivicube.com/scenes/PNWC5qJBGS7cnzqxhfVhPoSORJWdWAWO" title="导览牌" id="Point13" skinid="导览牌" description="" pan="-290.72"/>
+      <hotspot target="_blank" tilt="-3.39" url="https://www.kivicube.com/scenes/aFRAsc7CfYowG96oe1dzX01NTIxhC4NN" title="厚德朴实" id="Point14" skinid="厚德朴实" description="" pan="-347.27"/>
+    </hotspots>
+    <media>
+      <sound keep="1" loop="-1" level="1.000" url="media/skin_snd_greatest.mp3" id="greatest" mode="0"/>
+    </media>
+    <transition softedge="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" zoomin="0" enabled="1" zoomspeed="3" zoomout="0" blendtime="0.5"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" invertcontrol="1" invertwheel="1" lockedmouse="0" contextfullscreen="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedkeyboard="0" sensitivity="8" speedwheel="1" lockedwheel="0" contextprojections="0"/>
+  </panorama>
+  <masternode>
+    <userdata customnodeid="" latitude="" info="" nodeid="master" datetime="" copyright="" comment="" title="" longitude="" tags="" description="" author="" source="" heading="0"/>
+  </masternode>
+</tour>

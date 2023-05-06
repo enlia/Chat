@@ -1,0 +1,863 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #myFloatWindow{
+                position: fixed;  /* 固定定位 */
+                top: 50px;        /* 距离顶部的距离 */
+                right: 50px;      /* 距离右侧的距离 */
+                width: 200px;     /* 宽度 */
+                height: 100px;    /* 高度 */
+                background-color: #fff;  /* 背景色 */
+                border: 1px solid #ccc;  /* 边框 */
+                box-shadow: 0 0 5px #ccc;  /* 阴影效果 */
+                z-index: 9999;    /* 层级，确保在所有元素的最上层 */
+            }
+        </style>
+    </head>
+    <body>
+
+        <button onclick="openWindow()">打开浮窗</button>
+
+        <script>
+        function openWindow() {
+        window.open("https://www.example.com", "example", "width=400,height=400");
+        }
+        </script>
+
+
+
+        <button id="myFloatWindow">这是一个浮窗</button>
+        <script>
+/*
+            window.onload = function() {
+                var floatWindow = document.getElementById('myFloatWindow');
+                floatWindow.style.display = 'none';  
+            };
+            */
+            var el=document.getElementById('myFloatWindow');
+            el.addEventListener('click',()=>{
+                alert('hello');
+                var floatWindow = document.getElementById('myFloatWindow');
+                floatWindow.style.display = 'block';   /* 显示浮窗 */
+            });
+        </script>
+          
+    </body>
+</html> -->
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>弹出框示例</title>
+	<style>
+		.popup {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			padding: 20px;
+			background-color: #f1f1f1;
+			border: 1px solid #ccc;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
+			z-index: 9999;
+		}
+
+		.popup h3 {
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="openPopup()">打开弹出框</button>
+
+	<div class="popup" id="popup" style="display: none;">
+		<h3>欢迎来到弹出框示例！</h3>
+		<p>这是一个使用HTML、CSS和JavaScript实现的弹出框。</p>
+		<button onclick="closePopup()">关闭</button>
+	</div>
+
+	<script>
+		var popup = document.getElementById('popup');
+
+		function openPopup() {
+			popup.style.display = 'block';
+		}
+
+		function closePopup() {
+			popup.style.display = 'none';
+		}
+	</script>
+</body>
+</html> -->
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>浮窗示例</title>
+    <style>
+        .float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: #f1f1f1;
+            border-radius: 50%;
+            box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.75);
+            cursor: pointer;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <div class="float" onclick="openPopup()">
+        <p style="text-align: center; margin-top: 40px;">点击</p>
+    </div>
+
+    <script>
+        var popup;
+
+        function openPopup() {
+            // 打开弹出框
+            popup = window.open('https://www.baidu.com', 'popup', 'width=800,height=600');
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+<div class="back"><input type="button" value="退出" id="back"></div>
+
+<div class="talk">
+    <div class="title" id="title">
+        聊天室——————————————JavaScrpit房间
+
+    </div>
+
+
+    <div class="talk_con" id="talk_con">
+        <div class="talk_show" id="words" style="overflow: scroll;">
+            <div class="atalk"><span class="asay" id="talk1" id="asay">12-01 09:53:53 王者说：以后请多关照</span></div>
+            <div class="atalk"><span class="asay" id="talk2" id="asay">12-01 09:35:06 王者说：大家好</span></div>
+            <div class="atalk"><span class="asay" id="talk3" id="asay">12-01 09:53:53 服务器说：欢迎用户来到王者光临王者聊天室</span>
+            </div>
+        </div>
+        <div id="image_list" style="display:none">
+            <!-- <img src="./image/1.gif" alt="" class="image_con">
+                <img src="./image/2.gif" alt="" class="image_con">
+                <img src="./image/3.gif" alt="" class="image_con">
+                <img src="./image/4.gif" alt="" class="image_con">
+                <img src="./image/5.gif" alt="" class="image_con">
+                <img src="./image/6.gif" alt="" class="image_con">
+                <img src="./image/7.gif" alt="" class="image_con">
+                <img src="./image/8.gif" alt="" class="image_con">
+                <img src="./image/9.gif" alt="" class="image_con">
+                <img src="./image/10.gif" alt="" class="image_con">
+                <img src="./image/11.gif" alt="" class="image_con">
+                <img src="./image/12.gif" alt="" class="image_con">
+                <img src="./image/13.gif" alt="" class="image_con">
+                <img src="./image/14.gif" alt="" class="image_con">
+                <img src="./image/15.gif" alt="" class="image_con">
+                <img src="./image/16.gif" alt="" class="image_con">
+                <img src="./image/17.gif" alt="" class="image_con">
+                <img src="./image/18.gif" alt="" class="image_con">
+                <img src="./image/19.gif" alt="" class="image_con">
+                <img src="./image/20.gif" alt="" class="image_con">
+                <img src="./image/21.gif" alt="" class="image_con">
+                <img src="./image/22.gif" alt="" class="image_con">
+                <img src="./image/23.gif" alt="" class="image_con">
+                <img src="./image/24.gif" alt="" class="image_con">
+                <img src="./image/25.gif" alt="" class="image_con">
+                <img src="./image/26.gif" alt="" class="image_con">
+                <img src="./image/27.gif" alt="" class="image_con">
+                <img src="./image/28.gif" alt="" class="image_con">
+                <img src="./image/29.gif" alt="" class="image_con">
+                <img src="./image/30.gif" alt="" class="image_con">
+                <img src="./image/31.gif" alt="" class="image_con">
+                <img src="./image/32.gif" alt="" class="image_con">
+                <img src="./image/33.gif" alt="" class="image_con">
+                <img src="./image/34.gif" alt="" class="image_con">
+                <img src="./image/35.gif" alt="" class="image_con">
+                <img src="./image/36.gif" alt="" class="image_con">
+                <img src="./image/37.gif" alt="" class="image_con">
+                <img src="./image/38.gif" alt="" class="image_con">
+                <img src="./image/39.gif" alt="" class="image_con">
+                <img src="./image/40.gif" alt="" class="image_con">
+                <img src="./image/41.gif" alt="" class="image_con">
+                <img src="./image/42.gif" alt="" class="image_con">
+                <img src="./image/43.gif" alt="" class="image_con">
+                <img src="./image/44.gif" alt="" class="image_con">
+                <img src="./image/45.gif" alt="" class="image_con">
+                <img src="./image/46.gif" alt="" class="image_con">
+                <img src="./image/47.gif" alt="" class="image_con">
+                <img src="./image/48.gif" alt="" class="image_con">
+                <img src="./image/49.gif" alt="" class="image_con">
+                <img src="./image/50.gif" alt="" class="image_con">
+                <img src="./image/51.gif" alt="" class="image_con">
+                <img src="./image/52.gif" alt="" class="image_con">
+                <img src="./image/53.gif" alt="" class="image_con">
+                <img src="./image/54.gif" alt="" class="image_con">
+                <img src="./image/55.gif" alt="" class="image_con">
+                <img src="./image/56.gif" alt="" class="image_con">
+                <img src="./image/57.gif" alt="" class="image_con">
+                <img src="./image/58.gif" alt="" class="image_con">
+                <img src="./image/59.gif" alt="" class="image_con">
+                <img src="./image/60.gif" alt="" class="image_con">
+                <img src="./image/61.gif" alt="" class="image_con">
+                <img src="./image/62.gif" alt="" class="image_con">
+                <img src="./image/63.gif" alt="" class="image_con">
+                <img src="./image/64.gif" alt="" class="image_con">
+                <img src="./image/65.gif" alt="" class="image_con">
+                <img src="./image/66.gif" alt="" class="image_con">
+                <img src="./image/67.gif" alt="" class="image_con">
+                <img src="./image/68.gif" alt="" class="image_con">
+                <img src="./image/69.gif" alt="" class="image_con">
+                <img src="./image/70.gif" alt="" class="image_con">
+                <img src="./image/71.gif" alt="" class="image_con">
+                <img src="./image/72.gif" alt="" class="image_con">
+                <img src="./image/73.gif" alt="" class="image_con">
+                <img src="./image/74.gif" alt="" class="image_con">
+                <img src="./image/75.gif" alt="" class="image_con">
+                <img src="./image/76.gif" alt="" class="image_con">
+                <img src="./image/77.gif" alt="" class="image_con">
+                <img src="./image/78.gif" alt="" class="image_con">
+                <img src="./image/79.gif" alt="" class="image_con">
+                <img src="./image/80.gif" alt="" class="image_con">
+                <img src="./image/81.gif" alt="" class="image_con">
+                <img src="./image/82.gif" alt="" class="image_con">
+                <img src="./image/83.gif" alt="" class="image_con">
+                <img src="./image/84.gif" alt="" class="image_con">
+                <img src="./image/85.gif" alt="" class="image_con">
+                <img src="./image/86.gif" alt="" class="image_con">
+                <img src="./image/87.gif" alt="" class="image_con">
+                <img src="./image/88.gif" alt="" class="image_con">
+                <img src="./image/89.gif" alt="" class="image_con">
+                <img src="./image/90.gif" alt="" class="image_con">
+                <img src="./image/91.gif" alt="" class="image_con">
+                <img src="./image/92.gif" alt="" class="image_con">
+                <img src="./image/93.gif" alt="" class="image_con">
+                <img src="./image/94.gif" alt="" class="image_con">
+                <img src="./image/95.gif" alt="" class="image_con">
+                <img src="./image/96.gif" alt="" class="image_con">
+                <img src="./image/97.gif" alt="" class="image_con">
+                <img src="./image/98.gif" alt="" class="image_con">
+                <img src="./image/99.gif" alt="" class="image_con">
+                <img src="./image/100.gif" alt="" class="image_con">
+                <img src="./image/101.gif" alt="" class="image_con">
+                <img src="./image/102.gif" alt="" class="image_con">
+                <img src="./image/103.gif" alt="" class="image_con">
+                <img src="./image/104.gif" alt="" class="image_con">
+                <img src="./image/105.gif" alt="" class="image_con">
+                <img src="./image/106.gif" alt="" class="image_con">
+                <img src="./image/107.gif" alt="" class="image_con">
+                <img src="./image/108.gif" alt="" class="image_con">
+                <img src="./image/109.gif" alt="" class="image_con">
+                <img src="./image/110.gif" alt="" class="image_con">
+                <img src="./image/111.gif" alt="" class="image_con">
+                <img src="./image/112.gif" alt="" class="image_con">
+                <img src="./image/113.gif" alt="" class="image_con">
+                <img src="./image/114.gif" alt="" class="image_con">
+                <img src="./image/115.gif" alt="" class="image_con">
+                <img src="./image/116.gif" alt="" class="image_con">
+                <img src="./image/117.gif" alt="" class="image_con">
+                <img src="./image/118.gif" alt="" class="image_con">
+                <img src="./image/119.gif" alt="" class="image_con">
+                <img src="./image/120.gif" alt="" class="image_con">
+                <img src="./image/121.gif" alt="" class="image_con">
+                <img src="./image/122.gif" alt="" class="image_con">
+                <img src="./image/123.gif" alt="" class="image_con">
+                <img src="./image/124.gif" alt="" class="image_con">
+                <img src="./image/125.gif" alt="" class="image_con">
+                <img src="./image/126.gif" alt="" class="image_con">
+                <img src="./image/127.gif" alt="" class="image_con">
+                <img src="./image/128.gif" alt="" class="image_con">
+                <img src="./image/129.gif" alt="" class="image_con">
+                <img src="./image/130.gif" alt="" class="image_con">
+                <img src="./image/131.gif" alt="" class="image_con">
+                <img src="./image/132.gif" alt="" class="image_con"> -->
+
+        </div>
+        <div class="talk_input">
+            <input type="text" class="talk_word" id="talkwords">
+            <input type="button" value="发送信息" class="talk_sub" id="talksub">
+            <div id="image_icon">
+
+                <button class="talk_sub" id="talksub_img">发送表情</button>
+            </div>
+
+
+            <select class="talk_sub" id="talksub_color" style="width: 100px;">
+                <option value="">选择文字颜色</option>
+
+                <option value="white">白色</option>
+
+                <option value="red">红色</option>
+
+                <option value="yellow">黄色</option>
+
+                <option value="blue">蓝色</option>
+
+            </select>
+
+
+
+            <select class="talk_sub" id="talksub_bgcolor" style="width: 100px;">
+                <option value="">选择背景颜色</option>
+
+                <option value="white">白色</option>
+
+                <option value="red">红色</option>
+
+                <option value="yellow">黄色</option>
+
+                <option value="blue">蓝色</option>
+
+            </select>
+
+            <!-- <input type="button" value="文字颜色" class="talk_sub" id="talksub_color">
+                        <input type="button" value="背景颜色" class="talk_sub" id="talksub_bgcolor"> -->
+        </div>
+    </div>
+    <div class="user_list">
+        <div class="user_list_title">用户列表</div>
+        <div class="user">
+            <ul>
+                <li>admin</li>
+                <li>hello</li>
+                <li id="user">王者</li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.talk {
+    margin: 0 auto;
+    width: 100%;
+    height: 714px;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, .0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.talk_con {
+    width: 60%;
+    position: absolute;
+    top: 70px;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, .0);
+
+}
+
+.talk_show {
+    width: 80%;
+    height: 522px;
+    border: 1px solid #666;
+    background: rgba(0, 0, 0, .2);
+    margin: 10px auto 0;
+    overflow: auto;
+}
+
+.talk_input {
+    width: 80%;
+    height: 70px;
+    border: 1px solid #666;
+    background: rgba(0, 0, 0, .2);
+    margin: 10px auto 0;
+    overflow: auto;
+
+
+}
+
+.talk_word {
+    margin-top: 20px;
+    width: 400px;
+    height: 26px;
+    padding: 0px;
+    float: left;
+    outline: none;
+    text-indent: 10px;
+    border: 1px solid black;
+    margin-left: 30px;
+    border-radius: 5px;
+
+}
+
+.talk_sub {
+    flex-grow: 1;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 26px;
+    width: 50px;
+
+}
+
+.atalk {
+    margin: 10px;
+}
+
+.atalk span {
+    display: inline-block;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.btalk {
+    margin: 10px;
+    text-align: right;
+}
+
+.btalk span {
+    display: inline-block;
+    background: #ef8201;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.back input {
+
+    z-index: 999;
+    position: absolute;
+    right: 100px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+} */
+
+
+/* * {
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.talk {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 80vh;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, .0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.talk_con {
+    width: 100%;
+    position: relative;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, .0);
+
+}
+
+.talk_show {
+    width: 80%;
+    height: 522px;
+    border: 1px solid #666;
+    background: rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.talk_input {
+    width: 80%;
+    height: 70px;
+    border: 1px solid #666;
+    background: rgba(0, 0, 0, .2);
+    margin: 10px auto 0;
+    overflow: auto;
+
+}
+
+.talk_word {
+    margin-top: 20px;
+    width: 400px;
+    height: 26px;
+    padding: 0px;
+    float: left;
+    outline: none;
+    text-indent: 10px;
+    border: 1px solid black;
+    margin-left: 30px;
+    border-radius: 5px;
+
+}
+
+.talk_sub {
+    flex-grow: 1;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 26px;
+    width: 50px;
+
+}
+
+.atalk {
+    margin: 10px;
+}
+
+.atalk span {
+    display: inline-block;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.btalk {
+    margin: 10px;
+    text-align: right;
+}
+
+.btalk span {
+    display: inline-block;
+    background: #ef8201;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.back input {
+
+    z-index: 999;
+    position: absolute;
+    right: 100px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+} */
+
+
+
+/* * {
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.talk {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80vh;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, .0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.talk_con {
+    width: 100%;
+    position: relative;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, .0);
+}
+
+.talk_show {
+    width: 100%;
+    height: 522px;
+    border: 1px solid #666;
+    background: rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.talk_input {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #666;
+    background: rgba(0, 0, 0, .2);
+    margin: 10px auto 0;
+    overflow: auto;
+}
+
+.talk_word {
+    margin-top: 20px;
+    width: 400px;
+    height: 26px;
+    padding: 0px;
+    float: left;
+    outline: none;
+    text-indent: 10px;
+    border: 1px solid black;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.talk_sub {
+    flex-grow: 1;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 26px;
+    width: 50px;
+}
+
+.atalk {
+    margin: 10px;
+}
+
+.atalk span {
+    display: inline-block;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.btalk {
+    margin: 10px;
+    text-align: right;
+}
+
+.btalk span {
+    display: inline-block;
+    background: #ef8201;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.back input {
+    z-index: 999;
+    position: absolute;
+    right: 100px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+} */
+
+
+
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.talk {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    cursor: default;
+    border: 0px solid #000000;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    white-space: pre-wrap;
+    padding: 0px 1px 0px 1px;
+    overflow: hidden; /* 更改此处 */
+    z-index: 9999999999999;
+}
+
+.talk_show {
+    text-align: center;
+    font-size: 30px;
+
+    width: 100%;
+    height: 80%;
+    border: 1px solid #666;
+    background: rgba(0, 0, 0, .2);
+    /* margin: 0 auto; */
+    margin: 10px auto 0;
+
+    overflow: scroll; /* 更改此处 */
+    border: 1px solid black;
+    background-color: rgb(228, 225, 50);
+
+}
+
+
+.user_list {
+    width: 20%;
+    height: 604px;
+    position: absolute;
+    background-color: aqua;
+    right: 0px;
+    top: 100px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+
+}
+
+
+
+.user_list_title {
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+
+.user_list li {
+    padding-bottom: 10px;
+}
+
+#image_list {
+    width: 500px;
+    height: 300px;
+    border: 1px red solid;
+    bottom: 72px;
+    right: 125px;
+    position: absolute;
+}
+
+
+
+
+.talk_con {
+    position: relative;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, .0);
+}
+
+
+
+.talk_input {
+    width: 100%;
+    height: 15%;
+    border: 1px solid #666;
+    background: rgba(0, 0, 0, .2);
+    margin: 10px auto 0;
+    overflow: auto;
+}
+
+.talk_word {
+    margin-top: 20px;
+    width: 400px;
+    height: 26px;
+    padding: 0px;
+    float: left;
+    outline: none;
+    text-indent: 10px;
+    border: 1px solid black;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.talk_sub {
+    flex-grow: 1;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 26px;
+    width: 50px;
+}
+
+.atalk {
+    margin: 10px;
+}
+
+.atalk span {
+    display: inline-block;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.btalk {
+    margin: 10px;
+    text-align: right;
+}
+
+.btalk span {
+    display: inline-block;
+    background: #ef8201;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.back input {
+    z-index: 999;
+    position: absolute;
+    right: 100px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}

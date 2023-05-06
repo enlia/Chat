@@ -1,0 +1,58 @@
+<div style="position:absolute;box-sizing: border-box;cursor: default;left: 0px;top:  0px;width: 280px;height: 250px;border: 0px solid #000000;color: rgba(255,255,255,1);text-align: left;white-space: pre-wrap;padding: 0px 1px 0px 1px;overflow: hidden;overflow-y: auto;">欢迎各位同学使用本VR导览！<br>有以下提醒：<br>友情提示:第一次进入加载时间会久一些！<br>1.VR导览，根据实时定位地图导航刷新地图<br>2.可根据VR场景方向对准后打开陀螺仪可以<br>  进行沉浸式导览<br>3.VR导览会实时更新AR寻宝活动，可观察VR<br>  全景图中标红地方，则是寻宝扫描地点<br>4.AR可扫描校内导览牌，有神奇的秘密哦<br>5.实时弹幕功能静待不久后上线<br>6.即时聊天功能于五月中旬上线<br><br><br>祝各位校园校园生活愉快！</div>
+
+
+
+
+
+		<div class="talk hidden" id='chat-container' style="position:absolute;box-sizing: border-box;cursor: default;left:
+		0px;top: 0px;width: 280px;height: 250px;border: 0px solid #000000;color:
+		rgba(255,255,255,1);text-align: left;white-space: pre-wrap;padding: 0px 1px
+		0px 1px;overflow: hidden;overflow-y: auto;">
+			<!-- <div class="talk hidden" id='chat-container'> -->
+
+
+
+			<div class="talk_con" id="talk_con">
+
+				<div class="talk_show" id="words" style="overflow: scroll;">
+					<div class="back"><input type="button" value="退出" id="back"></div>
+					<div class="atalk"><span class="asay" id="talk1" id="asay">12-01 09:53:53
+							王者说：以后请多关照</span></div>
+					<div class="atalk"><span class="asay" id="talk2" id="asay">12-01 09:35:06
+							王者说：大家好</span></div>
+					<div class="atalk"><span class="asay" id="talk3" id="asay">12-01 09:53:53
+							服务器说：欢迎用户来到王者光临王者聊天室</span>
+					</div>
+				</div>
+
+				<div class="talk_input">
+					<input type="text" placeholder="请输入消息..." class="talk_word" id="talkwords">
+					<input type="button" value="发送" class="talk_sub" id="talksub">
+
+
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+		<div class="talk hidden" id='chat-container' style="
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		box-sizing: border-box;
+		cursor: default;
+		width: 280px;
+		height: 250px;
+		border: 0px solid #000000;
+		color: rgba(255,255,255,1);
+		text-align: left;
+		white-space: pre-wrap;
+		padding: 0px 1px 0px 1px;
+		overflow: hidden;
+		overflow-y: auto;
+		">
